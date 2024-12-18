@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1E1E1E">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo!"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/repair_list_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:paddingTop="10dp"
+            android:background="#555555"
+            android:padding="10dp"
+            android:cornerRadius="10dp">
+
+            <!-- Reparação 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#2C6B2F"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/repair_title_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reparação 1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/repair_info_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data de entrega prevista: 20/12/2024"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:paddingTop="5dp"/>
+            </LinearLayout>
+
+            <!-- Reparação 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#2C6B2F"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/repair_title_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reparação 2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/repair_info_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data de entrega prevista: 22/12/2024"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:paddingTop="5dp"/>
+            </LinearLayout>
+
+            <!-- Reparação 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#2C6B2F"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/repair_title_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reparação 3"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/repair_info_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data de entrega prevista: 25/12/2024"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:paddingTop="5dp"/>
+            </LinearLayout>
+
+            <!-- Reparação 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#2C6B2F"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/repair_title_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reparação 4"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/repair_info_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data de entrega prevista: 30/12/2024"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:paddingTop="5dp"/>
+            </LinearLayout>
+
+            <!-- Reparação 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#2C6B2F"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/repair_title_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reparação 5"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/repair_info_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data de entrega prevista: 05/01/2025"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:paddingTop="5dp"/>
+            </LinearLayout>
+
+            <!-- Reparação 6 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#2C6B2F"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/repair_title_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reparação 6"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/repair_info_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data de entrega prevista: 10/01/2025"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:paddingTop="5dp"/>
+            </LinearLayout>
+
+            <!-- Reparação 7 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#2C6B2F"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/repair_title_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reparação 7"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/repair_info_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data de entrega prevista: 15/01/2025"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:paddingTop="5dp"/>
+            </LinearLayout>
+
+            <!-- Reparação 8 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#2C6B2F"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/repair_title_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reparação 8"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/repair_info_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data de entrega prevista: 20/01/2025"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:paddingTop="5dp"/>
+            </LinearLayout>
+
+            <!-- Reparação 9 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#2C6B2F"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/repair_title_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reparação 9"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/repair_info_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data de entrega prevista: 25/01/2025"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:paddingTop="5dp"/>
+            </LinearLayout>
+
+            <!-- Reparação 10 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#2C6B2F"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/repair_title_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reparação 10"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/repair_info_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data de entrega prevista: 30/01/2025"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:paddingTop="5dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

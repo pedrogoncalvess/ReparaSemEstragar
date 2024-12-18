@@ -1,0 +1,112 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#212121">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reparação 1"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="16dp"/>
+
+    <!-- Linha separadora -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvDeviceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Aparelho:"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/tvDevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PC do Quarta-feira"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="#808080"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/tvStatusLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Estado:"
+        android:textColor="#FFFFFF"/>
+
+    <ProgressBar
+        android:id="@+id/pbStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="1"
+        android:max="3"
+        android:layout_marginTop="10dp"
+        android:progressTint="#4CAF50"
+        android:layout_marginBottom="16dp"
+        style="@android:style/Widget.ProgressBar.Horizontal" />
+
+
+    <TextView
+        android:id="@+id/tvProblemDescriptionLabel"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Descrição do problema:"
+        android:textColor="#FFFFFF"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvProblemDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Problema de juntas, resumidamente não vale um caralho. \nRecomendação: Pegar no pc e jogar com ele na Vouga!"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:background="#808080"
+            android:padding="10dp"
+            android:maxLines="5"
+            android:ellipsize="end"
+            android:scrollbars="vertical"
+            android:layout_marginBottom="16dp"/>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:text="Fechar"
+        android:textColor="#FFFFFF"
+        android:radius="4dp"
+        android:backgroundTint="#D32F2F"
+        android:layout_margin="25dp"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E">
+
+    <!-- Título RSE -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="RSE"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <!-- Registo Label -->
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        android:text="Registo"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Container de Registo -->
+    <LinearLayout
+        android:id="@+id/register_container"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_background2"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/tv_title"
+        android:padding="30dp"
+        android:elevation="4dp">
+
+        <!-- EditText Nome -->
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_background"
+            android:hint="Nome"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- EditText Telefone -->
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_background"
+            android:hint="Telefone"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:padding="10dp"
+            android:inputType="phone"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- EditText Email -->
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_background"
+            android:hint="Email"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- EditText Palavra-passe -->
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_background"
+            android:hint="Palavra-passe"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- EditText Confirme Palavra-passe -->
+        <EditText
+            android:id="@+id/et_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_background"
+            android:hint="Confirme Palavra-passe"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Botões -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!-- Botão Cancelar -->
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Cancelar"
+                android:backgroundTint="#DDDDDD"
+                android:textColor="#000000"
+                android:layout_marginEnd="10dp"/>
+
+            <!-- Botão Registar -->
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Registar"
+                android:backgroundTint="#2E7D32"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
