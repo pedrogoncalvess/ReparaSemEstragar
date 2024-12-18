@@ -83,7 +83,7 @@
             android:id="@+id/tvProblemDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Problema de juntas, resumidamente não vale um caralho. \nRecomendação: Pegar no pc e jogar com ele na Vouga!"
+            android:text="Problema de juntas!"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:background="#808080"
