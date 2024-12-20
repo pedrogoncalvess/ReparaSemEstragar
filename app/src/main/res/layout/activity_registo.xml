@@ -44,25 +44,26 @@
         android:elevation="4dp">
 
         <!-- EditText Nome -->
+
+        <!-- EditText Telefone -->
         <EditText
             android:id="@+id/et_name"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
             android:background="@drawable/rounded_background"
             android:hint="Nome"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#AAAAAA"
             android:padding="10dp"
-            android:layout_marginBottom="15dp"/>
+            android:textColor="@color/black"
+            android:textColorHint="#AAAAAA" />
 
-        <!-- EditText Telefone -->
         <EditText
             android:id="@+id/et_phone"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/rounded_background"
             android:hint="Telefone"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/black"
             android:textColorHint="#AAAAAA"
             android:padding="10dp"
             android:inputType="phone"
@@ -75,7 +76,7 @@
             android:layout_height="50dp"
             android:background="@drawable/rounded_background"
             android:hint="Email"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/black"
             android:textColorHint="#AAAAAA"
             android:padding="10dp"
             android:inputType="textEmailAddress"
@@ -83,12 +84,12 @@
 
         <!-- EditText Palavra-passe -->
         <EditText
-            android:id="@+id/et_password"
+            android:id="@+id/et_password1"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/rounded_background"
             android:hint="Palavra-passe"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/black"
             android:textColorHint="#AAAAAA"
             android:padding="10dp"
             android:inputType="textPassword"
@@ -101,7 +102,7 @@
             android:layout_height="50dp"
             android:background="@drawable/rounded_background"
             android:hint="Confirme Palavra-passe"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/black"
             android:textColorHint="#AAAAAA"
             android:padding="10dp"
             android:inputType="textPassword"
@@ -127,7 +128,7 @@
 
             <!-- Botão Registar -->
             <Button
-                android:id="@+id/btn_register"
+                android:id="@+id/btn_register1"
                 android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:layout_weight="1"
