@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "797130159485",
+    "firebase_url": "https://reparasemestragar-default-rtdb.firebaseio.com",
+    "project_id": "reparasemestragar",
+    "storage_bucket": "reparasemestragar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797130159485:android:a0d6f3c6be3fe82505c814",
+        "android_client_info": {
+          "package_name": "com.example.reparasemestragar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0ODrl2iwGfnuzKb63ptfSTU71T4ZjbQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

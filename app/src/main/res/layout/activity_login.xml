@@ -50,7 +50,7 @@
             android:layout_height="50dp"
             android:background="@drawable/rounded_background"
             android:hint="Username"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/black"
             android:textColorHint="#AAAAAA"
             android:padding="10dp"
             android:layout_marginBottom="15dp"/>
@@ -62,7 +62,7 @@
             android:layout_height="50dp"
             android:background="@drawable/rounded_background"
             android:hint="Password"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/black"
             android:textColorHint="#AAAAAA"
             android:padding="10dp"
             android:inputType="textPassword"

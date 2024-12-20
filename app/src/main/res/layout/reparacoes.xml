@@ -28,8 +28,8 @@
             android:paddingBottom="16dp"
             android:paddingTop="10dp"
             android:background="#555555"
-            android:padding="10dp"
-            android:cornerRadius="10dp">
+            android:padding="10dp">
+            <!--android:cornerRadius="10dp"-->
 
             <!-- Reparação 1 -->
             <LinearLayout
